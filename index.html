@@ -100,7 +100,30 @@
         <h2>Записаться</h2>
         <p class="appointment-info">summis export illum esse export ipsum
           aliqua nulla legam sint elit magna elit summis sunt</p>
-        <!--Место для будушей формы-->
+        <form class="appointment-form" action="index.html" method="post">
+          <p class="appointment-item">
+            <label>Дата
+              <input type="date" name="date" value="" placeholder="01.10.2135">
+            </label>
+          </p>
+          <p>
+            <label>Время
+              <input type="time" name="time" value="" placeholder="10:00">
+            </label>
+          </p>
+          <p>
+            <label>Имя
+              <input type="text" name="name" value="" placeholder="Lorem">
+            </label>
+          </p>
+          <p>
+            <label>Телефон
+              <input type="number" name="phone" value=""
+              placeholder="+7 549 455-78-62">
+            </label>
+          </p>
+          <button class="button" type="submit" name="button">Отправить</button>
+        </form>
       </section>
 
       <footer class="main-footer">
@@ -123,6 +146,44 @@
           <a class="button" href="#">me :)</a>
         </p>
       </footer>
+
+      <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свои логин и пароль</p>
+        <form class="login-form" action="index.html" method="post">
+          <p>
+            <label class="visually-hidden">Логин
+              <input class="login-icon-user" type="text" name="login"
+              value="" placeholder="Логин">
+            </label>
+          </p>
+          <p>
+            <label>Пароль
+              <input class="login-icon-password" type="password" name="password"
+              value="" placeholder="Пароль">
+            </label>
+          </p>
+
+          <p class="visually-hidden">
+            <label>Запомнить меня
+              <input class="visually-hidden" type="checkbox" name="remember"
+              value="">
+              <span class="checkbox-indicator"></span>
+            </label>
+            <a href="#">Забыл пароль!</a>
+          </p>
+          <button class="button" type="submit" name="">Войти</button>
+        </form>
+        <button class="modal-close" type="button"></button>
+      </section>
+
+      <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <p>
+          <img src="img/map.jpg" alt="адрес">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+      </section>
 
     </main>
   </body>
