@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: black;
+  background-image: url("../img/bg-image.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  vertical-align: center;
+
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.main-nav {
+  font-size: 16px;
+  line-height: 20px;
+  color:#ffffff;
+
+  background-color: #000000;
+}
+
+.nav-item,
+.login-link {
+  list-style: none;
+}
+
+.main-nav a {
+  color: #ffffff;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+  text-align: center;
+}
+
+.features-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-colums {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("../img/colums-bg.jpg");
+}
+
+.index-colums h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news-list {
+  list-style: none;
+}
+
+.news time {
+  text-transform: none;
+}
+
+.appointment-item input {
+  font: inherit;
+
+  background-color: #F9F6F3;
+  border: 2px solid #000000;
+}
